@@ -17,19 +17,19 @@ body:
     attributes:
       label: Voorgestelde wijziging
       placeholder: Hoe zou de wijziging eruit moeten zien?
-- type: dropdown
-    id: soort
-    attributes:
-      label: Soort RFC
-      options:
-        - Foutcorrectie
-        - Uitbreiding/Nieuwe functionaliteit
-        - Wijziging bestaande functionaliteit
- - type: input
-    id: versie
-    attributes:
-      label: VERA versie
-      placeholder: bijv v4.3.1
-    validations:
-      required: true
+  - type: dropdown
+      id: soort
+      attributes:
+        label: Soort RFC
+        options:
+          - Foutcorrectie
+          - Uitbreiding/Nieuwe functionaliteit
+          - Wijziging bestaande functionaliteit
+   - type: input
+      id: versie
+      attributes:
+        label: VERA versie
+        placeholder: bijv v4.3.1
+      validations:
+        required: true
 
