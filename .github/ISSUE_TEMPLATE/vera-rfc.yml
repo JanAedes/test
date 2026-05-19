@@ -23,11 +23,7 @@ body:
         label: Soort RFC
         options:
           - Foutcorrectie
-          - Uitbreiding/Nieuwe functionaliteit
+          - Uitbreiding of nieuwe functionaliteit
           - Wijziging bestaande functionaliteit
-   - type: input
-      id: versie
-      attributes:
-        label: VERA versie
-        placeholder: bijv v4.3.1
+  
 
