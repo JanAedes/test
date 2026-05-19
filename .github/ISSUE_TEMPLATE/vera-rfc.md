@@ -1,14 +1,10 @@
 ---
 name: VERA RFC
 about: Wijzigingsvoorstel voor VERA
-title: "[BUG]"
+title: Titel van je wijzigingsvoorstel
 labels: ''
 assignees: ''
 
 ---
 
-Hier een korte tekst
-dit
-is
-het
-**template**
+Beschrijf hier je opmerking of wijzigingsvoorstel
