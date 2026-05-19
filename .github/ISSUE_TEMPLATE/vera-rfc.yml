@@ -7,26 +7,10 @@ body:
     attributes:
       value: |
         Vul onderstaande velden zo volledig mogelijk in.
-  - type: input
-    id: app-version
-    attributes:
-      label: VERA versie
-      placeholder: bijv. v2.1.0
-    validations:
-      required: true
-  - type: dropdown
-    id: impact
-    attributes:
-      label: Te verwachten impact
-      options:
-        - Laag
-        - Gemiddeld
-        - Hoog
-        - Kritiek
   - type: textarea
-    id: steps
+    id: probleem-omschrijving
     attributes:
-      label: Onderbouwing
-      placeholder: Hoe kunnen we deze bug terugvinden?
+      label: Probleemomschrijving
+      placeholder: Wat gaat er nu mis of wat ontbreekt nu in de standaard?
     validations:
       required: true
