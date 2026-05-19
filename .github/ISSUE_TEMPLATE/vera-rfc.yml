@@ -17,5 +17,9 @@ body:
     attributes:
       label: Voorgestelde wijziging
       placeholder: Hoe zou de wijziging eruit moeten zien?
-
+   - type: input
+      id: versie
+      attributes:
+        label: VERA versie
+        placeholder: bijv v4.3.1
 
