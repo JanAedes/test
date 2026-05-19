@@ -17,13 +17,5 @@ body:
     attributes:
       label: Voorgestelde wijziging
       placeholder: Hoe zou de wijziging eruit moeten zien?
-  - type: dropdown
-      id: soort
-      attributes:
-        label: Soort RFC
-        options:
-          - Foutcorrectie
-          - Uitbreiding of nieuwe functionaliteit
-          - Wijziging bestaande functionaliteit
-  
+
 
