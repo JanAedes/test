@@ -1,23 +1,23 @@
-name: Bug Report
-description: Rapporteer een fout in de applicatie
-title: "[Bug]: "
-labels: ["bug", "triage"]
+name: VERA RFC
+description: Wijzigingsverzoek voor VERA
+title: "[RFC]: "
+labels: ["Vastgoed", "Verhuur","Referentiedata"]
 body:
   - type: markdown
     attributes:
       value: |
-        Bedankt voor het melden! Vul de onderstaande velden zo compleet mogelijk in.
+        Vul onderstaande velden zo volledig mogelijk in.
   - type: input
     id: app-version
     attributes:
-      label: Applicatie Versie
+      label: VERA versie
       placeholder: bijv. v2.1.0
     validations:
       required: true
   - type: dropdown
-    id: priority
+    id: impact
     attributes:
-      label: Prioriteit
+      label: Te verwachten impact
       options:
         - Laag
         - Gemiddeld
@@ -26,7 +26,7 @@ body:
   - type: textarea
     id: steps
     attributes:
-      label: Stappen om te reproduceren
+      label: Onderbouwing
       placeholder: Hoe kunnen we deze bug terugvinden?
     validations:
       required: true
