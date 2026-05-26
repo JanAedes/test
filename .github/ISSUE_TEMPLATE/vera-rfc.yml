@@ -43,9 +43,9 @@ body:
       label: VERA versie
       placeholder: bijv. v4.3.
       
-name: VERA RFC
+name: VERA Vraag
 description: Wijzigingsverzoek voor VERA
-title: "[RFC]: "
+title: "[Vraag]: "
 labels: ["Vastgoed", "Verhuur", "Referentiedata"]
 
 body:
@@ -57,27 +57,8 @@ body:
   - type: textarea
     id: probleem-omschrijving
     attributes:
-      label: Probleemomschrijving
-      placeholder: Wat gaat er nu mis of wat ontbreekt nu in de standaard?
-    validations:
-      required: true
-
-  - type: textarea
-    id: voorgestelde-wijziging
-    attributes:
-      label: Voorgestelde wijziging
-      placeholder: Hoe zou de wijziging eruit moeten zien?
-    validations:
-      required: true
-
-  - type: dropdown
-    id: soort
-    attributes:
-      label: Soort RFC
-      options:
-        - Foutcorrectie
-        - Uitbreiding of nieuwe functionaliteit
-        - Wijziging bestaande functionaliteit
+      label: Vraag
+      placeholder: 
     validations:
       required: true
 
