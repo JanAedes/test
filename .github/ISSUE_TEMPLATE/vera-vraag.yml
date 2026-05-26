@@ -1,0 +1,24 @@
+name: VERA Vraag
+description: Wijzigingsverzoek voor VERA
+title: "[Vraag]: "
+labels: ["Vastgoed", "Verhuur", "Referentiedata"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Vul onderstaande velden zo volledig mogelijk in.
+
+  - type: textarea
+    id: probleem-omschrijving
+    attributes:
+      label: Vraag
+      placeholder: 
+    validations:
+      required: true
+
+  - type: input
+    id: versie
+    attributes:
+      label: VERA versie
+      placeholder: bijv. v4.3.
